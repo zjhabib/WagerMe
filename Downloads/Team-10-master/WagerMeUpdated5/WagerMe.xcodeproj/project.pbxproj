@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A6CBA2B1E713663004F6909 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6CBA2A1E713662004F6909 /* GoogleMobileAds.framework */; };
+		1A6CBA2D1E713668004F6909 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6CBA2C1E713668004F6909 /* GoogleToolboxForMac.framework */; };
+		1A6CBA331E7141BC004F6909 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6CBA321E7141BC004F6909 /* UserNotifications.framework */; };
+		4709EE591E714C550040C6C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4709EE571E714C550040C6C6 /* GoogleService-Info.plist */; };
+		4721601C1EA818D000D1802F /* RedemptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721601B1EA818D000D1802F /* RedemptionTableViewCell.swift */; };
+		479F6B771E9406C0008A01E5 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F6B761E9406C0008A01E5 /* MainPageViewController.swift */; };
+		47A49AEB1EA5F4F60059712C /* ImportContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A49AEA1EA5F4F60059712C /* ImportContactsViewController.swift */; };
+		47D44E421E712015000E6007 /* PhotoSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D44E411E712015000E6007 /* PhotoSelectorViewController.swift */; };
+		47FBF4971EA5D9F60091A4A3 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FBF4961EA5D9F60091A4A3 /* ImagePickerViewController.swift */; };
+		47FBF4991EA5DBFA0091A4A3 /* UpdatedUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FBF4981EA5DBFA0091A4A3 /* UpdatedUserViewController.swift */; };
+		649B11711EA6B5B200CDC477 /* WatchAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B11701EA6B5B200CDC477 /* WatchAdViewController.swift */; };
+		6A175437B1F33FC10D4F7C76 /* Pods_WagerMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC464EAFC56A114528BF5FCA /* Pods_WagerMe.framework */; };
+		7B128BBB1EA5908700E60D6E /* BettingHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B128BBA1EA5908700E60D6E /* BettingHistoryTableViewCell.swift */; };
+		7B128BBD1EA5909E00E60D6E /* PendingSentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B128BBC1EA5909E00E60D6E /* PendingSentTableViewCell.swift */; };
+		8711D7FC1E9FD9010092D2C4 /* PendingSentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8711D7FB1E9FD9010092D2C4 /* PendingSentViewController.swift */; };
+		8730E1731E9C50A6000D8934 /* RedemptionConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730E1721E9C50A6000D8934 /* RedemptionConfirmationViewController.swift */; };
+		8776571E1E9C680A005769C8 /* BettingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776571D1E9C680A005769C8 /* BettingHistory.swift */; };
+		877657281E9EC7C4005769C8 /* YourWagersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877657271E9EC7C4005769C8 /* YourWagersViewController.swift */; };
+		8776572E1E9ED4A7005769C8 /* PWPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776572D1E9ED4A7005769C8 /* PWPViewController.swift */; };
+		877657301E9EECEF005769C8 /* ViewInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776572F1E9EECEF005769C8 /* ViewInformationViewController.swift */; };
+		877657321E9F1E00005769C8 /* PendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877657311E9F1E00005769C8 /* PendingViewController.swift */; };
+		877657341E9F1E19005769C8 /* OngoingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877657331E9F1E19005769C8 /* OngoingViewController.swift */; };
+		878EF03E1EA193B20073631B /* PendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EF03D1EA193B20073631B /* PendingTableViewCell.swift */; };
+		878EF0401EA196D50073631B /* OngoingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EF03F1EA196D50073631B /* OngoingTableViewCell.swift */; };
+		878EF0471EA19FD60073631B /* DeactivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EF0461EA19FD60073631B /* DeactivateViewController.swift */; };
+		87E9AC361E998FA1006F984E /* BalanceDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9AC351E998FA1006F984E /* BalanceDisplayViewController.swift */; };
+		87E9AC381E998FBF006F984E /* MarketplaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9AC371E998FBF006F984E /* MarketplaceViewController.swift */; };
+		87E9AC3A1E998FE9006F984E /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9AC391E998FE9006F984E /* LogoutViewController.swift */; };
+		87E9AC3C1E99A3C6006F984E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9AC3B1E99A3C6006F984E /* MenuViewController.swift */; };
+		87E9AC3E1E99A3F7006F984E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9AC3D1E99A3F7006F984E /* SettingsViewController.swift */; };
+		9C9B5E4A1E6E7C3E00123388 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B5E441E687D0900123388 /* LoginViewController.swift */; };
+		9CE17A1D1E70DF620027EABC /* PlaceWagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE17A1C1E70DF620027EABC /* PlaceWagerViewController.swift */; };
+		9CF1C80C1E67572F00F63D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1C80B1E67572F00F63D8D /* AppDelegate.swift */; };
+		9CF1C8111E67572F00F63D8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF1C80F1E67572F00F63D8D /* Main.storyboard */; };
+		9CF1C8131E67573000F63D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF1C8121E67573000F63D8D /* Assets.xcassets */; };
+		9CF1C8161E67573000F63D8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF1C8141E67573000F63D8D /* LaunchScreen.storyboard */; };
+		9CF1C8211E67573000F63D8D /* WagerMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1C8201E67573000F63D8D /* WagerMeTests.swift */; };
+		9CF1C82C1E67573000F63D8D /* WagerMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1C82B1E67573000F63D8D /* WagerMeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CF1C81D1E67573000F63D8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CF1C8001E67572F00F63D8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CF1C8071E67572F00F63D8D;
+			remoteInfo = WagerMe;
+		};
+		9CF1C8281E67573000F63D8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CF1C8001E67572F00F63D8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CF1C8071E67572F00F63D8D;
+			remoteInfo = WagerMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A6CBA2A1E713662004F6909 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = SOURCE_ROOT; };
+		1A6CBA2C1E713668004F6909 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = SOURCE_ROOT; };
+		1A6CBA311E714120004F6909 /* WagerMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WagerMe.entitlements; sourceTree = "<group>"; };
+		1A6CBA321E7141BC004F6909 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		4709EE571E714C550040C6C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4709EE581E714C550040C6C6 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		4721601B1EA818D000D1802F /* RedemptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedemptionTableViewCell.swift; sourceTree = "<group>"; };
+		479F6B761E9406C0008A01E5 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		47A49AEA1EA5F4F60059712C /* ImportContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportContactsViewController.swift; sourceTree = "<group>"; };
+		47D44E411E712015000E6007 /* PhotoSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorViewController.swift; sourceTree = "<group>"; };
+		47FBF4961EA5D9F60091A4A3 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		47FBF4981EA5DBFA0091A4A3 /* UpdatedUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatedUserViewController.swift; sourceTree = "<group>"; };
+		649B11701EA6B5B200CDC477 /* WatchAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchAdViewController.swift; sourceTree = "<group>"; };
+		67ED27F9BBE0FA8F2B5791BB /* Pods-WagerMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagerMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-WagerMe/Pods-WagerMe.release.xcconfig"; sourceTree = "<group>"; };
+		7B128BBA1EA5908700E60D6E /* BettingHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BettingHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		7B128BBC1EA5909E00E60D6E /* PendingSentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingSentTableViewCell.swift; sourceTree = "<group>"; };
+		8711D7FB1E9FD9010092D2C4 /* PendingSentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingSentViewController.swift; sourceTree = "<group>"; };
+		8730E1721E9C50A6000D8934 /* RedemptionConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedemptionConfirmationViewController.swift; sourceTree = "<group>"; };
+		8776571D1E9C680A005769C8 /* BettingHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BettingHistory.swift; sourceTree = "<group>"; };
+		877657271E9EC7C4005769C8 /* YourWagersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourWagersViewController.swift; sourceTree = "<group>"; };
+		8776572D1E9ED4A7005769C8 /* PWPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWPViewController.swift; sourceTree = "<group>"; };
+		8776572F1E9EECEF005769C8 /* ViewInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInformationViewController.swift; sourceTree = "<group>"; };
+		877657311E9F1E00005769C8 /* PendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingViewController.swift; sourceTree = "<group>"; };
+		877657331E9F1E19005769C8 /* OngoingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OngoingViewController.swift; sourceTree = "<group>"; };
+		878EF03D1EA193B20073631B /* PendingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingTableViewCell.swift; sourceTree = "<group>"; };
+		878EF03F1EA196D50073631B /* OngoingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OngoingTableViewCell.swift; sourceTree = "<group>"; };
+		878EF0461EA19FD60073631B /* DeactivateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeactivateViewController.swift; sourceTree = "<group>"; };
+		87E9AC351E998FA1006F984E /* BalanceDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceDisplayViewController.swift; sourceTree = "<group>"; };
+		87E9AC371E998FBF006F984E /* MarketplaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketplaceViewController.swift; sourceTree = "<group>"; };
+		87E9AC391E998FE9006F984E /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		87E9AC3B1E99A3C6006F984E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		87E9AC3D1E99A3F7006F984E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9C9B5E441E687D0900123388 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9CE17A1C1E70DF620027EABC /* PlaceWagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceWagerViewController.swift; sourceTree = "<group>"; };
+		9CF1C8081E67572F00F63D8D /* WagerMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WagerMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF1C80B1E67572F00F63D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CF1C8101E67572F00F63D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CF1C8121E67573000F63D8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CF1C8151E67573000F63D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CF1C8171E67573000F63D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF1C81C1E67573000F63D8D /* WagerMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WagerMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF1C8201E67573000F63D8D /* WagerMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WagerMeTests.swift; sourceTree = "<group>"; };
+		9CF1C8221E67573000F63D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF1C8271E67573000F63D8D /* WagerMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WagerMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF1C82B1E67573000F63D8D /* WagerMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WagerMeUITests.swift; sourceTree = "<group>"; };
+		9CF1C82D1E67573000F63D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D9F123281E5F11A361F47D /* Pods-WagerMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagerMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WagerMe/Pods-WagerMe.debug.xcconfig"; sourceTree = "<group>"; };
+		DC464EAFC56A114528BF5FCA /* Pods_WagerMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WagerMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CF1C8051E67572F00F63D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6CBA331E7141BC004F6909 /* UserNotifications.framework in Frameworks */,
+				1A6CBA2D1E713668004F6909 /* GoogleToolboxForMac.framework in Frameworks */,
+				1A6CBA2B1E713663004F6909 /* GoogleMobileAds.framework in Frameworks */,
+				6A175437B1F33FC10D4F7C76 /* Pods_WagerMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF1C8191E67573000F63D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF1C8241E67573000F63D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10FBBFA40277491D0F30DAA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A6CBA321E7141BC004F6909 /* UserNotifications.framework */,
+				DC464EAFC56A114528BF5FCA /* Pods_WagerMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B4D80751EA53C2A008A8E6E /* Wagers */ = {
+			isa = PBXGroup;
+			children = (
+				8776571D1E9C680A005769C8 /* BettingHistory.swift */,
+				8776572D1E9ED4A7005769C8 /* PWPViewController.swift */,
+				7B128BBA1EA5908700E60D6E /* BettingHistoryTableViewCell.swift */,
+				878EF0411EA19B9D0073631B /* Ongoing */,
+				878EF0421EA19BA30073631B /* Pending */,
+			);
+			name = Wagers;
+			sourceTree = "<group>";
+		};
+		878EF0411EA19B9D0073631B /* Ongoing */ = {
+			isa = PBXGroup;
+			children = (
+				877657331E9F1E19005769C8 /* OngoingViewController.swift */,
+				878EF03F1EA196D50073631B /* OngoingTableViewCell.swift */,
+			);
+			name = Ongoing;
+			sourceTree = "<group>";
+		};
+		878EF0421EA19BA30073631B /* Pending */ = {
+			isa = PBXGroup;
+			children = (
+				878EF03D1EA193B20073631B /* PendingTableViewCell.swift */,
+				8711D7FB1E9FD9010092D2C4 /* PendingSentViewController.swift */,
+				7B128BBC1EA5909E00E60D6E /* PendingSentTableViewCell.swift */,
+				877657311E9F1E00005769C8 /* PendingViewController.swift */,
+			);
+			name = Pending;
+			sourceTree = "<group>";
+		};
+		878EF0431EA19BCA0073631B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				878EF0461EA19FD60073631B /* DeactivateViewController.swift */,
+				47D44E411E712015000E6007 /* PhotoSelectorViewController.swift */,
+				87E9AC3D1E99A3F7006F984E /* SettingsViewController.swift */,
+				8776572F1E9EECEF005769C8 /* ViewInformationViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		878EF0441EA19C0E0073631B /* Logs and Registration */ = {
+			isa = PBXGroup;
+			children = (
+				9C9B5E441E687D0900123388 /* LoginViewController.swift */,
+				87E9AC391E998FE9006F984E /* LogoutViewController.swift */,
+				479F6B761E9406C0008A01E5 /* MainPageViewController.swift */,
+			);
+			name = "Logs and Registration";
+			sourceTree = "<group>";
+		};
+		878EF0451EA19C380073631B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				87E9AC351E998FA1006F984E /* BalanceDisplayViewController.swift */,
+				87E9AC371E998FBF006F984E /* MarketplaceViewController.swift */,
+				87E9AC3B1E99A3C6006F984E /* MenuViewController.swift */,
+				8730E1721E9C50A6000D8934 /* RedemptionConfirmationViewController.swift */,
+				4721601B1EA818D000D1802F /* RedemptionTableViewCell.swift */,
+				649B11701EA6B5B200CDC477 /* WatchAdViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		98C7FF628B5D5CAD59792D9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1D9F123281E5F11A361F47D /* Pods-WagerMe.debug.xcconfig */,
+				67ED27F9BBE0FA8F2B5791BB /* Pods-WagerMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CF1C7FF1E67572F00F63D8D = {
+			isa = PBXGroup;
+			children = (
+				9CF1C80A1E67572F00F63D8D /* WagerMe */,
+				9CF1C81F1E67573000F63D8D /* WagerMeTests */,
+				9CF1C82A1E67573000F63D8D /* WagerMeUITests */,
+				9CF1C8091E67572F00F63D8D /* Products */,
+				98C7FF628B5D5CAD59792D9F /* Pods */,
+				10FBBFA40277491D0F30DAA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CF1C8091E67572F00F63D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CF1C8081E67572F00F63D8D /* WagerMe.app */,
+				9CF1C81C1E67573000F63D8D /* WagerMeTests.xctest */,
+				9CF1C8271E67573000F63D8D /* WagerMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CF1C80A1E67572F00F63D8D /* WagerMe */ = {
+			isa = PBXGroup;
+			children = (
+				7B4D80751EA53C2A008A8E6E /* Wagers */,
+				878EF0451EA19C380073631B /* Menu */,
+				878EF0441EA19C0E0073631B /* Logs and Registration */,
+				878EF0431EA19BCA0073631B /* Settings */,
+				1A6CBA311E714120004F6909 /* WagerMe.entitlements */,
+				9CF1C80B1E67572F00F63D8D /* AppDelegate.swift */,
+				47FBF4961EA5D9F60091A4A3 /* ImagePickerViewController.swift */,
+				47FBF4981EA5DBFA0091A4A3 /* UpdatedUserViewController.swift */,
+				9CF1C80F1E67572F00F63D8D /* Main.storyboard */,
+				47A49AEA1EA5F4F60059712C /* ImportContactsViewController.swift */,
+				877657271E9EC7C4005769C8 /* YourWagersViewController.swift */,
+				9CE17A1C1E70DF620027EABC /* PlaceWagerViewController.swift */,
+				9CF1C8121E67573000F63D8D /* Assets.xcassets */,
+				1A6CBA2A1E713662004F6909 /* GoogleMobileAds.framework */,
+				9CF1C8141E67573000F63D8D /* LaunchScreen.storyboard */,
+				4709EE571E714C550040C6C6 /* GoogleService-Info.plist */,
+				4709EE581E714C550040C6C6 /* module.modulemap */,
+				1A6CBA2C1E713668004F6909 /* GoogleToolboxForMac.framework */,
+				9CF1C8171E67573000F63D8D /* Info.plist */,
+			);
+			path = WagerMe;
+			sourceTree = "<group>";
+		};
+		9CF1C81F1E67573000F63D8D /* WagerMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CF1C8201E67573000F63D8D /* WagerMeTests.swift */,
+				9CF1C8221E67573000F63D8D /* Info.plist */,
+			);
+			path = WagerMeTests;
+			sourceTree = "<group>";
+		};
+		9CF1C82A1E67573000F63D8D /* WagerMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CF1C82B1E67573000F63D8D /* WagerMeUITests.swift */,
+				9CF1C82D1E67573000F63D8D /* Info.plist */,
+			);
+			path = WagerMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CF1C8071E67572F00F63D8D /* WagerMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF1C8301E67573000F63D8D /* Build configuration list for PBXNativeTarget "WagerMe" */;
+			buildPhases = (
+				C5FB3FF41A2F6D059EF411C1 /* [CP] Check Pods Manifest.lock */,
+				9CF1C8041E67572F00F63D8D /* Sources */,
+				9CF1C8051E67572F00F63D8D /* Frameworks */,
+				9CF1C8061E67572F00F63D8D /* Resources */,
+				C0279538DE6F722704626642 /* [CP] Embed Pods Frameworks */,
+				22D9D6DB3D96CD1272120182 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WagerMe;
+			productName = WagerMe;
+			productReference = 9CF1C8081E67572F00F63D8D /* WagerMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CF1C81B1E67573000F63D8D /* WagerMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF1C8331E67573000F63D8D /* Build configuration list for PBXNativeTarget "WagerMeTests" */;
+			buildPhases = (
+				9CF1C8181E67573000F63D8D /* Sources */,
+				9CF1C8191E67573000F63D8D /* Frameworks */,
+				9CF1C81A1E67573000F63D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CF1C81E1E67573000F63D8D /* PBXTargetDependency */,
+			);
+			name = WagerMeTests;
+			productName = WagerMeTests;
+			productReference = 9CF1C81C1E67573000F63D8D /* WagerMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CF1C8261E67573000F63D8D /* WagerMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF1C8361E67573000F63D8D /* Build configuration list for PBXNativeTarget "WagerMeUITests" */;
+			buildPhases = (
+				9CF1C8231E67573000F63D8D /* Sources */,
+				9CF1C8241E67573000F63D8D /* Frameworks */,
+				9CF1C8251E67573000F63D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CF1C8291E67573000F63D8D /* PBXTargetDependency */,
+			);
+			name = WagerMeUITests;
+			productName = WagerMeUITests;
+			productReference = 9CF1C8271E67573000F63D8D /* WagerMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CF1C8001E67572F00F63D8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Christopher calvert";
+				TargetAttributes = {
+					9CF1C8071E67572F00F63D8D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 822KVFK6RM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					9CF1C81B1E67573000F63D8D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CF1C8071E67572F00F63D8D;
+					};
+					9CF1C8261E67573000F63D8D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CF1C8071E67572F00F63D8D;
+					};
+				};
+			};
+			buildConfigurationList = 9CF1C8031E67572F00F63D8D /* Build configuration list for PBXProject "WagerMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CF1C7FF1E67572F00F63D8D;
+			productRefGroup = 9CF1C8091E67572F00F63D8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CF1C8071E67572F00F63D8D /* WagerMe */,
+				9CF1C81B1E67573000F63D8D /* WagerMeTests */,
+				9CF1C8261E67573000F63D8D /* WagerMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CF1C8061E67572F00F63D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF1C8161E67573000F63D8D /* LaunchScreen.storyboard in Resources */,
+				4709EE591E714C550040C6C6 /* GoogleService-Info.plist in Resources */,
+				9CF1C8131E67573000F63D8D /* Assets.xcassets in Resources */,
+				9CF1C8111E67572F00F63D8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF1C81A1E67573000F63D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF1C8251E67573000F63D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22D9D6DB3D96CD1272120182 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagerMe/Pods-WagerMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0279538DE6F722704626642 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagerMe/Pods-WagerMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5FB3FF41A2F6D059EF411C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CF1C8041E67572F00F63D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877657281E9EC7C4005769C8 /* YourWagersViewController.swift in Sources */,
+				649B11711EA6B5B200CDC477 /* WatchAdViewController.swift in Sources */,
+				8730E1731E9C50A6000D8934 /* RedemptionConfirmationViewController.swift in Sources */,
+				878EF03E1EA193B20073631B /* PendingTableViewCell.swift in Sources */,
+				479F6B771E9406C0008A01E5 /* MainPageViewController.swift in Sources */,
+				87E9AC361E998FA1006F984E /* BalanceDisplayViewController.swift in Sources */,
+				877657301E9EECEF005769C8 /* ViewInformationViewController.swift in Sources */,
+				47D44E421E712015000E6007 /* PhotoSelectorViewController.swift in Sources */,
+				47FBF4971EA5D9F60091A4A3 /* ImagePickerViewController.swift in Sources */,
+				9C9B5E4A1E6E7C3E00123388 /* LoginViewController.swift in Sources */,
+				7B128BBB1EA5908700E60D6E /* BettingHistoryTableViewCell.swift in Sources */,
+				7B128BBD1EA5909E00E60D6E /* PendingSentTableViewCell.swift in Sources */,
+				4721601C1EA818D000D1802F /* RedemptionTableViewCell.swift in Sources */,
+				47FBF4991EA5DBFA0091A4A3 /* UpdatedUserViewController.swift in Sources */,
+				47A49AEB1EA5F4F60059712C /* ImportContactsViewController.swift in Sources */,
+				8776572E1E9ED4A7005769C8 /* PWPViewController.swift in Sources */,
+				9CF1C80C1E67572F00F63D8D /* AppDelegate.swift in Sources */,
+				87E9AC3C1E99A3C6006F984E /* MenuViewController.swift in Sources */,
+				878EF0401EA196D50073631B /* OngoingTableViewCell.swift in Sources */,
+				877657321E9F1E00005769C8 /* PendingViewController.swift in Sources */,
+				877657341E9F1E19005769C8 /* OngoingViewController.swift in Sources */,
+				87E9AC3E1E99A3F7006F984E /* SettingsViewController.swift in Sources */,
+				87E9AC381E998FBF006F984E /* MarketplaceViewController.swift in Sources */,
+				8711D7FC1E9FD9010092D2C4 /* PendingSentViewController.swift in Sources */,
+				878EF0471EA19FD60073631B /* DeactivateViewController.swift in Sources */,
+				87E9AC3A1E998FE9006F984E /* LogoutViewController.swift in Sources */,
+				8776571E1E9C680A005769C8 /* BettingHistory.swift in Sources */,
+				9CE17A1D1E70DF620027EABC /* PlaceWagerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF1C8181E67573000F63D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF1C8211E67573000F63D8D /* WagerMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF1C8231E67573000F63D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF1C82C1E67573000F63D8D /* WagerMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CF1C81E1E67573000F63D8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CF1C8071E67572F00F63D8D /* WagerMe */;
+			targetProxy = 9CF1C81D1E67573000F63D8D /* PBXContainerItemProxy */;
+		};
+		9CF1C8291E67573000F63D8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CF1C8071E67572F00F63D8D /* WagerMe */;
+			targetProxy = 9CF1C8281E67573000F63D8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CF1C80F1E67572F00F63D8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF1C8101E67572F00F63D8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CF1C8141E67573000F63D8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF1C8151E67573000F63D8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CF1C82E1E67573000F63D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CF1C82F1E67573000F63D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CF1C8311E67573000F63D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D9F123281E5F11A361F47D /* Pods-WagerMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WagerMe/WagerMe.entitlements;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
+				DEVELOPMENT_TEAM = 822KVFK6RM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WagerMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WagerMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9CF1C8321E67573000F63D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67ED27F9BBE0FA8F2B5791BB /* Pods-WagerMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WagerMe/WagerMe.entitlements;
+				DEBUG_ACTIVITY_MODE = "";
+				DEVELOPMENT_TEAM = 822KVFK6RM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WagerMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WagerMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9CF1C8341E67573000F63D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WagerMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisCalvert.WagerMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WagerMe.app/WagerMe";
+			};
+			name = Debug;
+		};
+		9CF1C8351E67573000F63D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WagerMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisCalvert.WagerMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WagerMe.app/WagerMe";
+			};
+			name = Release;
+		};
+		9CF1C8371E67573000F63D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WagerMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisCalvert.WagerMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WagerMe;
+			};
+			name = Debug;
+		};
+		9CF1C8381E67573000F63D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WagerMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisCalvert.WagerMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WagerMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CF1C8031E67572F00F63D8D /* Build configuration list for PBXProject "WagerMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF1C82E1E67573000F63D8D /* Debug */,
+				9CF1C82F1E67573000F63D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF1C8301E67573000F63D8D /* Build configuration list for PBXNativeTarget "WagerMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF1C8311E67573000F63D8D /* Debug */,
+				9CF1C8321E67573000F63D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF1C8331E67573000F63D8D /* Build configuration list for PBXNativeTarget "WagerMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF1C8341E67573000F63D8D /* Debug */,
+				9CF1C8351E67573000F63D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF1C8361E67573000F63D8D /* Build configuration list for PBXNativeTarget "WagerMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF1C8371E67573000F63D8D /* Debug */,
+				9CF1C8381E67573000F63D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CF1C8001E67572F00F63D8D /* Project object */;
+}
