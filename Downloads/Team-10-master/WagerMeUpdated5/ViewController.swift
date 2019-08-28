@@ -4,7 +4,7 @@
 //
 //  Created by Christopher calvert on 3/1/17.
 //  Copyright © 2017 Christopher calvert. All rights reserved.
-// CODED BY CHRIS CALVERT
+// CODED BY CHRIS CALVERT, ZANE HABIB, AUSTIN MOORE, STEVEN POULOS
 
 import UIKit
 
