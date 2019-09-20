@@ -8,6 +8,18 @@ Prizes redeemed at local small businesses F.E. "Free Chips and Salsa"
 
 App Monetization created by having users watch video advertisements to gain credit to continue playing
 
+## Documentation included:
+
+1. Full Requirements Documentation
+
+2. Use Cases
+
+3. User Testing Report
+
+4. High Fidelity Mockups
+
+5. Team Research Report
+
 ## Programming Technology
 
 Languages used: Swift, PHP
