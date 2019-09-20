@@ -20,16 +20,6 @@ App Monetization created by having users watch video advertisements to gain cred
 
 5. Team Research Report
 
-## Programming Technology
-
-Languages used: Swift, PHP
-
-Database: MySQL
-
-External Analytics: Google Admob, Firebase
-
-IDE: Xcode
-
 ## Business Documentation included:
 
 1. Business Model Canvas
@@ -39,3 +29,13 @@ IDE: Xcode
 3. Industry Market Analysis
 
 4. Legal/Financial Assessment
+
+## Programming Technology
+
+Languages used: Swift, PHP
+
+Database: MySQL
+
+External Analytics: Google Admob, Firebase
+
+IDE: Xcode
