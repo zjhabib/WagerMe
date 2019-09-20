@@ -8,7 +8,7 @@ Prizes redeemed at local small businesses F.E. "Free Chips and Salsa"
 
 App Monetization created by having users watch video advertisements to gain credit to continue playing
 
-## Documentation included:
+## Software Documentation included:
 
 1. Full Requirements Documentation
 
@@ -29,3 +29,13 @@ Database: MySQL
 External Analytics: Google Admob, Firebase
 
 IDE: Xcode
+
+## Business Documentation included:
+
+1. Business Model Canvas
+
+2. Sample Income Statement
+
+3. Industry Market Analysis
+
+4. Legal/Financial Assessment
