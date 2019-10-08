@@ -6,7 +6,7 @@ The users earn WagerPoints (in-app currency) in these bets that they can later u
 
 Prizes redeemed at local small businesses e.g. "Free Chips and Salsa"
 
-App Monetization created by having users watch video advertisements to gain credit to continue playing
+App Monetization created by having users watch video advertisements to gain credit to continue playing.
 
 ## Software Documentation included:
 
