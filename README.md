@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/Yxw20Mn.png" style="float: left; margin: 20px; height: 55px">
+<p align="center"><img src="https://i.imgur.com/Yxw20Mn.png" style="float: margin: 20px; height: 55px"></p>
 
 # WagerMe 
 
