@@ -1,4 +1,6 @@
-# WagerMe
+<img src="https://i.imgur.com/Yxw20Mn.png" style="float: left; margin: 20px; height: 55px">
+
+# WagerMe 
 
 WagerMe is an iOS, peer-to-peer, trust-based, betting game where users can make custom bets against one another. 
 
